@@ -12,7 +12,7 @@ def main():
     df = pd.read_csv("creditcard_sample.csv")
 
     # Optional: use a smaller sample so it runs fast on any laptop
-    df = df.sample(5000, random_state=42)
+    df = df.sample(min(5000, len(df)), random_state=42)
 
     # 2) Split features/target
     # In this dataset: Class = 1 (fraud), 0 (normal)
