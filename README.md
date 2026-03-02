@@ -56,4 +56,4 @@ Machine learning can help banks:
 - Handle imbalanced data more effectively
 - Try advanced models (Random Forest, XGBoost)
 - Deploy as a real-time monitoring API
-- Integrate with streaming transaction systems# fraud-detection-project
+- Integrate with streaming transaction systems
